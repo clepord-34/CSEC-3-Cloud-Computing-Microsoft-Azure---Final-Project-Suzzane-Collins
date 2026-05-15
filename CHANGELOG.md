@@ -44,3 +44,8 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - **Nhel Adam Benosa** – Verified CI/CD pipeline: pushed a test commit to `main`, confirmed successful auto-deployment via GitHub Actions.
 
 ---
+
+## [2026-05-15] – Bug Fix & Testing
+
+### Fixed
+- **Vince Clifford Aguilar** – Fixed 404 error on the live App Service URL. Root cause: GitHub Actions deploys the contents of `/build` directly to `wwwroot`, so the startup command `npx serve -s build -l 8080` was looking for a non-existent subdirectory. Corrected to `npx serve -s . -l 8080` and restarted the App Service.
