@@ -59,3 +59,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Added
 - **John Kenneth Bañares** – Completed `deployment/README.md` with all Azure Portal screenshots organized sequentially (SS-01 through SS-22).
+- **Francisco Verga III** – Created `diagram/architecture.md` with Mermaid diagram showing baseline and improved deployment side by side.
