@@ -51,6 +51,11 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - **Vince Clifford Aguilar** – Fixed 404 error on the live App Service URL. Root cause: GitHub Actions deploys the contents of `/build` directly to `wwwroot`, so the startup command `npx serve -s build -l 8080` was looking for a non-existent subdirectory. Corrected to `npx serve -s . -l 8080` and restarted the App Service.
 
 ### Added
-- **Nhel Adam Benosa** – Verified live deployment: site accessible at `https://app-suzzane-collins-ahcgdxb3gma7caa8.koreacentral-01.azurewebsites.net/`.
+- **Francisco Verga III** – Verified live deployment: site accessible at `https://app-suzzane-collins-ahcgdxb3gma7caa8.koreacentral-01.azurewebsites.net/`
 
 ---
+
+## [2026-05-16] – Documentation & Architecture
+
+### Added
+- **John Kenneth Bañares** – Completed `deployment/README.md` with all Azure Portal screenshots organized sequentially (SS-01 through SS-22).
